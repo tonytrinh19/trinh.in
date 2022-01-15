@@ -5,10 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tony Trinh</title>
-    <link rel="stylesheet" href="public/css/index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="public/css/index.css" />
   </head>
   <body>
-    a
-    <script src="lib/mustache.min.js"></script>
+    <div class="flex items-center justify-center h-screen">
+      <div
+        class="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10"
+      >
+        <h1 class="text-3xl font-bold underline">Tony Trinh!</h1>
+        <button
+          id="blog-btn"
+          class="bg-sky-500 mx-48 text-white font-bold py-2 px-4 rounded hover:bg-sky-700"
+        >
+          Go To Blog
+        </button>
+      </div>
+    </div>
+    <script src="public/js/index.js"></script>
   </body>
 </html>

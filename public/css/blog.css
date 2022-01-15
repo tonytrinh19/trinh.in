@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url("../../imgs/background.jpg");
-  background-size: 100% 100%;
+}
+
+#top-container {
+  background-image: url("../../imgs/coffee-notes.jpg");
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: 0 -250px;
 }
