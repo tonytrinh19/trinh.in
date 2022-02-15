@@ -17,7 +17,7 @@
       Back To Blogs
     </button>
     <div
-      style="background-image: url('../imgs/bg-img.jpg')"
+      style="background-image: url('../imgs/server-background.jpg')"
       class="h-96 bg-cover bg-no-repeat bg-fixed object-cover w-full bg-right"
     ></div>
     <div class="flex items-center justify-center">
@@ -25,29 +25,26 @@
         class="bg-slate-900 text-slate-400 rounded-lg border shadow-lg px-80 py-10"
       >
         <h1 class="my-4 font-bold text-3xl text-white">Developer Diary</h1>
-        <img src="../imgs/gifs/programmer.gif" alt="Programming" />
-        <p>February 4th, 2022</p>
-        <h1 class="my-4 text-white font-bold text-2xl">Controller API</h1>
+        <p>February 11th, 2022</p>
+        <h1 class="my-4 text-white font-bold text-2xl">Dynamic Library</h1>
         <p>
-          Our prof showed us his app that can detect and then print out all of a
-          controller's events whenever he pushes a button or used the joystick.
-          He briefly showed us the code for his program and tasked us with
-          incorporating controller to our game. It's midterm week coming up and
-          we still hadn't worked on a single line of code together for the game,
-          I couldn't help but feeling a little bit worried about not finishing
-          this game in time.
+          It's crucial for our game to be able to load a library at run time, so
+          it would be more lightweight and generic. Essentially, in our case,
+          the game development team would require an API, in this case the
+          function prototypes, from the chat team and then load that in anywhere
+          in the game program that requires chat functions. Loading libraries in
+          dynamically would allow the application to not have to load everything
+          at the startup of the app, which would significantly worsen the
+          performance of our game.
         </p>
-        <h1 class="my-4 text-white font-bold text-2xl">Team Retrospective</h1>
+        <h1 class="my-4 text-white font-bold text-2xl">
+          Application Programming Interface (API)
+        </h1>
         <p>
-          At the end of the week, the chat team had a sprint retrospective and
-          the 'Run game' team did an evaluation amongst the members of the
-          group. For the chat protocol, our group were able to finished most of
-          the important tasks for this sprint, the protocol examples are the
-          only ones that got pushed back to the backlog for the next sprint.
-        </p>
-
-        <p class="text-xs italic text-slate-200 px-8 pt-4 pb-2">
-          Backlog of the current sprint for chat team
+          An API would have to be provided to the game dev team so that they
+          could implement the chat features. I suppose what the chat team will
+          be doing in the coming weeks is to work on documenting the API so that
+          it would be easy to implement.
         </p>
       </div>
     </div>
